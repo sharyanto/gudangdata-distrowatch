@@ -6,7 +6,7 @@ use warnings;
 use FindBin '$Bin';
 use Log::Any::App '$log';
 
-use File::Slurper qw(write_binary);
+use File::Slurper qw(write_text);
 use JSON;
 use Mojo::UserAgent;
 use Setup::File::TextFragment qw(setup_text_fragment);
@@ -31,13 +31,13 @@ for my $distro (@distros) {
         my $err = $tx->error;
         die "Can't get URL '$url': $err->{code} - $err->{message}";
     }
-    write_binary("$Bin/../raw/${distro}_release/page.html", $tx->res->body);
-    write_binary("$Bin/../raw/${distro}_release/page.meta", "time: ".scalar(localtime($time))."\nurl: $url\n");
+    write_text("$Bin/../raw/${distro}_release/page.html", $tx->res->body);
+    write_text("$Bin/../raw/${distro}_release/page.meta", "time: ".scalar(localtime($time))."\nurl: $url\n");
     my $res = get_distro_releases_info(distribution => $distro, file => "$Bin/../raw/${distro}_release/page.html");
     die "Can't get release info for distro '$distro': $res->[0] - $res->[1]" unless $res->[0] == 200;
     my $file = "$Bin/../table/${distro}_release/data.json";
     $log->debug("Writing file '$file' ...");
-    write_binary($file, $json->encode($res->[2]));
+    write_text($file, $json->encode($res->[2]));
 }
 
 {
@@ -45,5 +45,5 @@ for my $distro (@distros) {
     die "Can't get list of distros: $res->[0] - $res->[1]" unless $res->[0] == 200;
     my $file = "$Bin/../table/distro/data.json";
     $log->debug("Writing file '$file' ...");
-    write_binary($file, $json->encode($res->[2]));
+    write_text($file, $json->encode($res->[2]));
 }
