@@ -4,7 +4,8 @@ use 5.010;
 use strict;
 use warnings;
 use FindBin '$Bin';
-use Log::Any::App '$log';
+use Log::ger::App;
+use Log::ger;
 
 use File::Slurper qw(write_text);
 use JSON;
@@ -25,7 +26,7 @@ my @distros = (
 for my $distro (@distros) {
     my $time = time();
     my $url = "http://distrowatch.com/table.php?distribution=$distro";
-    $log->debug("Getting URL '$url' ...");
+    log_debug("Getting URL '$url' ...");
     my $tx = $ua->get($url);
     unless ($tx->success) {
         my $err = $tx->error;
@@ -36,7 +37,7 @@ for my $distro (@distros) {
     my $res = get_distro_releases_info(distribution => $distro, file => "$Bin/../raw/${distro}_release/page.html");
     die "Can't get release info for distro '$distro': $res->[0] - $res->[1]" unless $res->[0] == 200;
     my $file = "$Bin/../table/${distro}_release/data.json";
-    $log->debug("Writing file '$file' ...");
+    log_debug("Writing file '$file' ...");
     write_text($file, $json->encode($res->[2]));
 }
 
@@ -44,6 +45,6 @@ for my $distro (@distros) {
     my $res = list_distros(file => "$Bin/../raw/debian_release/page.html");
     die "Can't get list of distros: $res->[0] - $res->[1]" unless $res->[0] == 200;
     my $file = "$Bin/../table/distro/data.json";
-    $log->debug("Writing file '$file' ...");
+    log_debug("Writing file '$file' ...");
     write_text($file, $json->encode($res->[2]));
 }
