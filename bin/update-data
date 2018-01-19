@@ -25,7 +25,7 @@ my @distros = (
 );
 for my $distro (@distros) {
     my $time = time();
-    my $url = "http://distrowatch.com/table.php?distribution=$distro";
+    my $url = "https://distrowatch.com/table.php?distribution=$distro";
     log_debug("Getting URL '$url' ...");
     my $tx = $ua->get($url);
     unless ($tx->success) {
