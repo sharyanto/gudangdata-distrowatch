@@ -20,15 +20,17 @@ my @distros = (
     "debian",
     "ubuntu",
     "mint",
-    "centos",
+    #"centos",
     "redhat",
+    "rocky",
+    "alma",
 );
 for my $distro (@distros) {
     my $time = time();
     my $url = "https://distrowatch.com/table.php?distribution=$distro";
     log_debug("Getting URL '$url' ...");
     my $tx = $ua->get($url);
-    unless ($tx->success) {
+    unless ($tx->result->is_success) {
         my $err = $tx->error;
         die "Can't get URL '$url': $err->{code} - $err->{message}";
     }
