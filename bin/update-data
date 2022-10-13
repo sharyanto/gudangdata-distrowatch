@@ -27,14 +27,14 @@ for my $distro (@distros) {
     my $time = time();
     my $url = "https://distrowatch.com/table.php?distribution=$distro";
     log_debug("Getting URL '$url' ...");
-    my $tx = $ua->get($url);
-    unless ($tx->success) {
-        my $err = $tx->error;
-        die "Can't get URL '$url': $err->{code} - $err->{message}";
+    my $res = $ua->get($url)->result;
+    unless ($res->is_success) {
+        die "Can't get URL '$url': ".$res->code." - ".$res->message;
     }
-    write_text("$Bin/../raw/${distro}_release/page.html", $tx->res->body);
+    write_text("$Bin/../raw/${distro}_release/page.html", $res->body);
     write_text("$Bin/../raw/${distro}_release/page.meta", "time: ".scalar(localtime($time))."\nurl: $url\n");
-    my $res = get_distro_releases_info(distribution => $distro, file => "$Bin/../raw/${distro}_release/page.html");
+
+    $res = get_distro_releases_info(distribution => $distro, file => "$Bin/../raw/${distro}_release/page.html");
     die "Can't get release info for distro '$distro': $res->[0] - $res->[1]" unless $res->[0] == 200;
     my $file = "$Bin/../table/${distro}_release/data.json";
     log_debug("Writing file '$file' ...");
