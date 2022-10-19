@@ -1,0 +1,843 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<title>DistroWatch.com: Rocky Linux</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="description" content="News and feature lists of Linux and BSD distributions." />
+<meta name="keywords" content="distrowatch, linux, android, bsd, unix, distro, distros, distributions, ubuntu, debian, suse, opensuse, fedora, red hat, centos, mageia, knoppix, gentoo, slackware, freebsd, openbsd" />
+<meta name="author" content="DistroWatch" />
+<!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,italic,bold,bolditalic&amp;subset=Latin" />-->
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: Latest News" href="news/dw.xml" />
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: Latest Distributions" href="news/dwd.xml" />
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: Latest Packages" href="news/dwp.xml" />
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: Latest Ratings" href="news/ratings.xml" />
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: DistroWatch Weekly" href="news/dww.xml" />
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: Latest DWW Podcast (MP3)" href="news/podcast.xml" />
+<link rel="alternate" type="application/rss+xml" title="DistroWatch: Latest DWW Podcast (OGG)" href="news/oggcast.xml" />
+<link rel="icon" href="favicon.ico" type="image/ico" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+<!-- Media.net header bidding code -->
+<script type="text/javascript">
+    window._mNHandle = window._mNHandle || {};
+    window._mNHandle.queue = window._mNHandle.queue || [];
+    medianet_versionId = "3121199";
+</script>
+<script src="https://contextual.media.net/dmedianet.js?cid=8CUK7Z630" async="async"></script>
+<script type = "text/javascript">
+(function () {
+window.advBidxc = window.advBidxc || {};
+window.advBidxc.customerId = "8CU7XD8P5"; // Customer ID
+window.advBidxc.domain = window.location.hostname;
+window.advBidxc.version = 5.1;
+window.advBidxc.startTime = new Date().getTime();
+function loadScript(tagSrc) {
+var scriptTag = document.createElement('script'),
+placeTag = document.getElementsByTagName("script")[0];
+scriptTag.type = 'text/javascript';
+scriptTag.async = true;
+scriptTag.src = tagSrc;
+placeTag.parentNode.insertBefore(scriptTag, placeTag);}
+var mnSrc = 'https://hbx.media.net/bidexchange.js?cid=' +
+window.advBidxc.customerId +
+"&version=" + window.advBidxc.version + '&dn=' +
+window.advBidxc.domain;
+loadScript(mnSrc); })();
+</script>
+<!-- Add sovrn's code -->
+<!-- //Connect Container: Distrowatch -->
+<script src="//get.s-onetag.com/f31b0467-497f-4b91-86b5-6219f9a80f5e/tag.min.js" async defer></script>
+<script defer src="https://cdn.unblockia.com/h.js"></script>
+<!-- 
+<script type="text/javascript">window.cookieconsent_options = {"message":"This website uses cookies to customize your experience. Third-party cookies may also be used by our advertisers.","dismiss":"Accept","learnMore":"Learn more","link":"https://distrowatch.com/dwres.php?resource=privacy","theme":"dark-bottom"};</script><script type="text/javascript" src="js/cookieconsent.latest.min.js"></script>--> 
+<link rel="stylesheet" href="css/tables.css" type="text/css"><style type="text/css"></style>
+</head>
+<body bcolor="#ffffff">
+<table style="width: 100%; border: 2px silver groove; background-color: #f6edc8; table-layout: auto">
+  <tr>
+    <td style="width: 468px; text-align: left; border: 0px">
+      <table style="width: 468px">
+        <tr>
+        <a href="./"><img src="images/cpxtu/dwbanner.png" border="0" title="DistroWatch.com. Put the fun back into computing, use Linux, BSD." /></a>
+        </tr>
+        <tr>
+          <td style="border: 0px; width: 230px; text-align: center">
+            <form style="height: 1%" action="table.php" method="get">
+            <input style="width: 160px; font-size: 12px"; type="text" name="distribution" value="Type Distribution Name" onfocus="value=''" maxlength="36" />
+            <input style="width: 50px" type="submit" value="Go" />
+            </form>
+          </td>
+          <td style="border: 0px; width: 230px; text-align: center">
+            <form style="height: 1%" action="table.php" method="get">
+            <select style="width: 160px" name="distribution" onchange="location = this.options[this.selectedIndex].value;">
+<option value="3cx">3CX</option><option value="4mlinux">4MLinux</option><option value="absolute">Absolute</option><option value="academix">AcademiX</option><option value="alma">AlmaLinux</option><option value="alpine">Alpine</option><option value="alt">ALT</option><option value="anarchy">Anarchy</option><option value="androidx86">Android-x86</option><option value="antix">antiX</option><option value="apodio">APODIO</option><option value="arch">Arch</option><option value="archbang">ArchBang</option><option value="archcraft">Archcraft</option><option value="archlabs">ArchLabs</option><option value="archman">Archman</option><option value="archstrike">ArchStrike</option><option value="arco">ArcoLinux</option><option value="artix">Artix</option><option value="avlinux">AV Linux</option><option value="backbox">BackBox</option><option value="baruwa">Baruwa</option><option value="batocera">batocera</option><option value="bedrock">Bedrock</option><option value="berry">Berry</option><option value="bicom">Bicom</option><option value="biglinux">BigLinux</option><option value="blackarch">BlackArch</option><option value="blackpanther">blackPanther</option><option value="blueonyx">BlueOnyx</option><option value="bluestar">Bluestar</option><option value="bodhi">Bodhi</option><option value="boss">BOSS</option><option value="bsdrp">BSDRP</option><option value="bunsenlabs">BunsenLabs</option><option value="cae">CAELinux</option><option value="caine">CAINE</option><option value="calculate">Calculate</option><option value="canaima">Canaima</option><option value="centos">CentOS</option><option value="clear">Clear</option><option value="clearos">ClearOS</option><option value="clonezilla">Clonezilla</option><option value="clonos">ClonOS</option><option value="cloudready">CloudReady</option><option value="crux">CRUX</option><option value="daphile">Daphile</option><option value="debian">Debian</option><option value="skolelinux">Debian Edu</option><option value="deepin">deepin</option><option value="devuan">Devuan</option><option value="diamond">Diamond</option><option value="dietpi">DietPi</option><option value="dragonflybsd">DragonFly</option><option value="dragora">Dragora</option><option value="drbl">DRBL</option><option value="easynas">EasyNAS</option><option value="easyos">EasyOS</option><option value="elastix">Elastix</option><option value="elementary">elementary</option><option value="elive">Elive</option><option value="emmabuntus">EmmabuntÃ¼s</option><option value="endeavour">EndeavourOS</option><option value="endian">Endian</option><option value="endless">Endless</option><option value="enso">Enso</option><option value="eurolinux">EuroLinux</option><option value="exe">Exe</option><option value="exherbo">Exherbo</option><option value="extix">ExTiX</option><option value="fatdog">Fatdog64</option><option value="fedora">Fedora</option><option value="ferenos">Feren</option><option value="finnix">Finnix</option><option value="forlex">ForLEx</option><option value="freebsd">FreeBSD</option><option value="freedombox">FreedomBox</option><option value="freepbx">FreePBX</option><option value="freespire">Freespire</option><option value="fuguita">FuguIta</option><option value="funtoo">Funtoo</option><option value="fwul">FWUL</option><option value="garuda">Garuda</option><option value="gecko">Gecko</option><option value="gentoo">Gentoo</option><option value="ghostbsd">GhostBSD</option><option value="gobo">GoboLinux</option><option value="gparted">GParted</option><option value="greenie">Greenie</option><option value="grml">Grml</option><option value="guixsd">Guix System</option><option value="haiku">Haiku</option><option value="hamonikr">HamoniKR</option><option value="hanthana">Hanthana</option><option value="hardenedbsd">HardenedBSD</option><option value="hyperbola">Hyperbola</option><option value="ipfire">IPFire</option><option value="jingos">JingOS</option><option value="kaisen">Kaisen</option><option value="kali">Kali</option><option value="kanotix">KANOTIX</option><option value="kaos">KaOS</option><option value="karoshi">Karoshi</option><option value="kdeneon">KDE neon</option><option value="kiss">KISS</option><option value="knoppix">KNOPPIX</option><option value="kodachi">Kodachi</option><option value="kolibri">KolibriOS</option><option value="kubuntu">Kubuntu</option><option value="lakka">Lakka</option><option value="leeenux">Leeenux</option><option value="lfs">LFS</option><option value="libreelec">LibreELEC</option><option value="linspire">Linspire</option><option value="linuxconsole">LinuxConsole</option><option value="linuxfx">Linuxfx</option><option value="lite">Lite</option><option value="liveraizo">Live Raizo</option><option value="lliurex">LliureX</option><option value="lockbox">LockBox</option><option value="lubuntu">Lubuntu</option><option value="luninux">LuninuX</option><option value="mabox">Mabox</option><option value="mageia">Mageia</option><option value="makulu">MakuluLinux</option><option value="manjaro">Manjaro</option><option value="max">MAX</option><option value="midnightbsd">MidnightBSD</option><option value="mint">Mint</option><option value="miracle">Miracle</option><option value="mll">MLL</option><option value="mx">MX Linux</option><option value="navy">Navy</option><option value="neptune">Neptune</option><option value="netbsd">NetBSD</option><option value="nethserver">NethServer</option><option value="netrunner">Netrunner</option><option value="nexentastor">NexentaStor</option><option value="nitrux">Nitrux</option><option value="nixos">NixOS</option><option value="nomadbsd">NomadBSD</option><option value="nst">NST</option><option value="nutyx">NuTyX</option><option value="ob2d">OB2D</option><option value="obarun">Obarun</option><option value="olpc">OLPC</option><option value="omarine">Omarine</option><option value="omoikane">Omoikane</option><option value="openbsd">OpenBSD</option><option value="openindiana">OpenIndiana</option><option value="openmamba">openmamba</option><option value="openmandriva">OpenMandriva</option><option value="openmediavault">OpenMediaVault</option><option value="opensuse">openSUSE</option><option value="opnsense">OPNsense</option><option value="oracle">Oracle</option><option value="osgeo">OSGeoLive</option><option value="osmc">OSMC</option><option value="ovios">OviOS</option><option value="pakos">PakOS</option><option value="paldo">paldo</option><option value="parabola">Parabola</option><option value="pardus">Pardus</option><option value="parrot">Parrot</option><option value="partedmagic">Parted Magic</option><option value="pclinuxos">PCLinuxOS</option><option value="pearl">Pearl</option><option value="pentoo">Pentoo</option><option value="peppermint">Peppermint</option><option value="pfsense">pfSense</option><option value="photonos">Photon</option><option value="pisi">Pisi</option><option value="plamo">Plamo</option><option value="pld">PLD</option><option value="plop">Plop</option><option value="popos">Pop!_OS</option><option value="porteus">Porteus</option><option value="porteuskiosk">Porteus Kiosk</option><option value="primtux">PrimTux</option><option value="proxmox">Proxmox</option><option value="puppy">Puppy</option><option value="pureos">PureOS</option><option value="q4os">Q4OS</option><option value="qubes">Qubes</option><option value="rancheros">RancherOS</option><option value="raspios">RasPiOS</option><option value="rds">RDS</option><option value="reactos">ReactOS</option><option value="rebeccablackos">RebeccaBlackOS</option><option value="rebornos">RebornOS</option><option value="recalbox">Recalbox</option><option value="redhat">Red Hat</option><option value="redcore">Redcore</option><option value="redo">Redo</option><option value="refracta">Refracta</option><option value="regata">Regata</option><option value="remnux">REMnux</option><option value="rescatux">Rescatux</option><option value="rescuezilla">Rescuezilla</option><option value="risc">RISC</option><option value="robolinux">Robolinux</option><option value="rockscluster">Rocks Cluster</option><option selected value="rocky">Rocky</option><option value="rosa">ROSA</option><option value="rss">RSS</option><option value="runtu">Runtu</option><option value="salient">Salient</option><option value="scientific">Scientific</option><option value="securepoint">Securepoint</option><option value="selks">SELKS</option><option value="septor">Septor</option><option value="sharklinux">Shark</option><option value="siduction">siduction</option><option value="simplicity">Simplicity</option><option value="slackel">Slackel</option><option value="slackware">Slackware</option><option value="slax">Slax</option><option value="slitaz">SliTaz</option><option value="smartos">SmartOS</option><option value="smeserver">SME Server</option><option value="smoothwall">Smoothwall</option><option value="snal">Snal</option><option value="solaris">Solaris</option><option value="solus">Solus</option><option value="solydxk">SolydXK</option><option value="sophos">Sophos</option><option value="sourcemage">Source Mage</option><option value="sparky">SparkyLinux</option><option value="springdale">Springdale</option><option value="star">Star</option><option value="steamos">SteamOS</option><option value="supergrub">Super Grub2</option><option value="supergamer">SuperGamer</option><option value="sle">SUSE</option><option value="swift">Swift</option><option value="systemrescue">SystemRescue</option><option value="t2">T2</option><option value="tails">Tails</option><option value="thinstation">Thinstation</option><option value="tinycore">Tiny Core</option><option value="tooppy">ToOpPy</option><option value="trisquel">Trisquel</option><option value="truenas">TrueNAS</option><option value="turnkey">TurnKey</option><option value="ubos">UBOS</option><option value="ubports">UBports</option><option value="ubuntu">Ubuntu</option><option value="ubuntubudgie">Ubuntu Budgie</option><option value="ubuntudp">Ubuntu DP</option><option value="ubuntukylin">Ubuntu Kylin</option><option value="ubuntumate">Ubuntu MATE</option><option value="ubuntustudio">Ubuntu Studio</option><option value="ufficiozero">Ufficio Zero</option><option value="ultimate">Ultimate</option><option value="univention">Univention</option><option value="untangle">Untangle</option><option value="uruk">Uruk</option><option value="venom">Venom</option><option value="vine">Vine</option><option value="void">Void</option><option value="volumio">Volumio</option><option value="voyager">Voyager</option><option value="vyos">VyOS</option><option value="vz">VzLinux</option><option value="webconverger">Webconverger</option><option value="whonix">Whonix</option><option value="wifislax">Wifislax</option><option value="xigmanas">XigmaNAS</option><option value="xubuntu">Xubuntu</option><option value="yunohost">YunoHost</option><option value="zentyal">Zentyal</option><option value="zenwalk">Zenwalk</option><option value="zevenet">Zevenet</option><option value="zorin">Zorin</option>            </select>
+            <input style="width: 50px" type="submit" value="Go" />
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 0px; width: 230px; text-align: center">
+<form target="_blank" method="get" id="search" action="https://duckduckgo.com/">
+  <div style="text-align: center">
+  <input type="hidden" name="sites" value="distrowatch.com"/>
+  <input type="hidden" name="k7" value="#fdffe3"/>
+  <input type="hidden" name="k1" value="-1"/>
+  <input style="width: 160px; font-size: 12px" type="text" name="q" size="24" onfocus="value=''" placeholder="DuckDuckGo Site Search"/>
+  <input style="width: 50px" type="submit" name="sa" value="Go" />
+  </div>
+</form>
+          </td>
+          <td style="border: 0px; width: 230px; text-align: center">
+            <form style="height: 1%" action="random.php">
+            <input style="width: 214px; vertical-align: top" type="submit" value="Random Distribution" />
+            </form>
+          </td>
+        </tr>
+      </table>    </td>
+    <td style="text-align: left; vertical-align: top; border: 0px; width: 100%">
+      <table style="table-layout: auto; width: 100%; column-span: 3;">
+        <tr>
+          <td style="border: 0px; text-align: right; width: 100%"><a href="https://distrowatch.com/?language=EN"><img style="vertical-align: middle" src="images/lbxfnbfzbi/en.png" border="0" title="English" /></a> &bull; <a href="https://distrowatch.com/?language=ES"><img style="vertical-align: middle" src="images/lbxfnbfzbi/es.png" border="0" title="Spanish" /></a> &bull; <a href="https://distrowatch.com/?language=FR"><img style="vertical-align: middle" src="images/lbxfnbfzbi/fr.png" border="0" title="French" /></a> &bull; <a href="https://distrowatch.com/?language=DE"><img style="vertical-align: middle" src="images/lbxfnbfzbi/de.png" border="0" title="German" /></a> &bull; <a href="https://distrowatch.com/?language=PT"><img style="vertical-align: middle" src="images/lbxfnbfzbi/pt.png" border="0" title="Portuguese" /></a> &bull; <a href="https://distrowatch.com/?language=SK"><img style="vertical-align: middle" src="images/lbxfnbfzbi/sk.png" border="0" title="Slovak" /></a> &bull; <a href="https://distrowatch.com/?language=JP"><img style="vertical-align: middle" src="images/lbxfnbfzbi/jp.png" border="0" title="Japanese" /></a> &bull; <a href="https://distrowatch.com/?language=ID"><img style="vertical-align: middle" src="images/lbxfnbfzbi/id.png" border="0" title="Indonesian" /></a>          </td>
+        </tr>
+      </table>
+      <table style="table-layout: auto; width: 100%">
+        <tr>
+          <th class="NavMenu">
+            &nbsp;&bull; <a href="./">Home Page</a>, <a href="/dwres.php?resource=headlines">Headlines</a><br />
+            &nbsp;&bull; <a href="weekly.php?issue=current">DW Weekly</a>, <a href="weekly.php?issue=current&amp;mode=67#comments">Comments</a><br />
+            &nbsp;&bull; <a href="packages.php">Packages</a>, 
+            <a href="dwres.php?resource=package-management">Package Management</a><br />
+            &nbsp;&bull; <a href="dwres.php?resource=glossary">Glossary</a>,             <a href="dwres.php?resource=faq">FAQ</a>,             <a href="index.php?mobile=1">Mobile Site</a>
+          </th>
+          <th class="NavMenu">
+            &nbsp;&bull; <a href="search.php">Search</a>, <a href="dwres.php?resource=sitemap">Sitemap</a><br />
+            &nbsp;&bull; <a href="dwres.php?resource=major">Major Distributions</a><br />
+            &nbsp;&bull; <a href="dwres.php?resource=submit">Submit Distribution</a><br />
+            &nbsp;&bull; <a href="weekly.php?issue=current#upcoming">Upcoming Releases</a><br />
+          </th>
+          <th class="NavMenu">
+            &nbsp;&bull; <a href="dwres.php?resource=about">About DistroWatch</a><br />
+            &nbsp;&bull; <a href="dwres.php?resource=popularity">Page Hit Ranking</a><br />
+            &nbsp;&bull; <a href="dwres.php?resource=advertise">Advertise</a><br />
+            &nbsp;&bull; <a href="dwres.php?resource=bittorrent">Torrent Downloads</a><br />
+          </th>
+        </tr>
+        <tr>
+<table style="width: 100%; border: none; background-color: #f6efc8">
+  <tr>
+    <td class="NewsLogo" style="border: none; text-align: right; background-color: #f6efc8; width: 100%">
+<span style="vertical-align: bottom; color: silver">DistroWatch.com is sponsored by </span><a href="https://www.3cx.com/"><img style="vertical-align: middle" src="images/k/3cx-19.png" border="0" alt="3CX - Software Based VoIP IP PBX / PABX" title="3CX - Software Based VoIP IP PBX / PABX"></a>&nbsp;<a href="https://www.elastix.org/"><img style="vertical-align: bottom" src="images/k/elastix-19.png" border="0"></a>    </td>
+  </tr>
+</table>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<link rel="stylesheet" href="/css/nav-menu.css" type="text/css" />
+
+<ul class="dropmenu">
+  <li class="dropdown">
+     <a href="javascript:void(0)" class="dropbtn" onclick="MenuFunction(1)">News/Opinions/Reviews &#9660;</a>
+     <div class="dropdown-content" id="myDropdown1">
+      <a href="/">Release Announcements</a>
+      <a href="dwres.php?resource=headlines">News and Headlines</a>
+      <a href="weekly.php?issue=current">DW Weekly</a>
+      <a href="weekly.php">DW Weekly / Review Archive</a>
+      <a href="dwres.php?resource=article-search">News/Article Search</a>
+      <a href="weekly.php?issue=current#upcoming">Upcoming Releases</a>
+      <a href="polls.php">Opinion Polls</a>
+      <a href="dwres.php?resource=ratings">Visitor Ratings &amp; Reviews</a>
+      <a href="dwres.php?resource=ranking">Project Rankings by Ratings</a>
+      <a href="dwres.php?resource=podcast-mobile">Podcasts, Newsletters &amp; Reviews</a>
+    </div>
+
+  </li>
+  <li class="dropdown">
+     <a href="javascript:void(0)" class="dropbtn" onclick="MenuFunction(2)">Packages &#9660;</a>
+     <div class="dropdown-content" id="myDropdown2">
+      <a href="packages.php">Packages We Track</a>
+      <a href="dwres.php?resource=package-management">Package Management</a>
+      <a href="dwres.php?resource=headlines">Package Releases</a>
+      <a href="dwres.php?resource=compare-packages">Compare Packages Across Distros</a>
+      <a href="dwres.php?resource=package-in-distro">Show package versions for all distros</a>
+    </div>
+
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="MenuFunction(3)">Find/Submit Distro &#9660;</a>
+    <div class="dropdown-content" id="myDropdown3">
+      <a href="search.php">Search For Distro</a>
+      <a href="search.php#advanced">Search For Distro - Advanced</a>
+      <a href="dwres.php?resource=major">Major Distributions</a>
+      <a href="new">Waiting List</a>
+      <a href="dwres.php?resource=submit">Submit Distribution</a>
+      <a href="dwres.php?resource=discontinued">Discontinued Distributions</a>
+      <a href="random.php">Random Distribution</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="MenuFunction(4)">Tutorials &amp; Learning &#9660;</a>
+    <div class="dropdown-content" id="myDropdown4">
+      <a href="dwres.php?resource=article-search">Search For An Article</a>
+      <a href="qanda.php">Questions and Answers Columns</a>
+      <a href="tips.php">Tips and Tricks Columns</a>
+      <a href="tips.php">Myths And Misunderstandings Columns</a>
+      <a href="dwres.php?resource=glossary">Glossary</a>
+      <a href="dwres.php?resource=man-pages">Simplified Manual Pages</a>
+    </div>
+  </li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="MenuFunction(5)">Related Resources &#9660;</a>
+    <div class="dropdown-content" id="myDropdown5">
+      <a href="dwres.php?resource=links">Other Operating Systems</a>
+      <a href="dwres.php?resource=hardware">Compatible Hardware</a>
+      <a href="dwres.php?resource=security">Security Advisories</a>
+      <a href="dwres.php?resource=bittorrent">Torrent Downloads</a>
+      <a href="dwres.php?resource=upload-torrent">Upload Torrents</a>
+      <a href="dwres.php?resource=keys">Distro Verification Keys</a>
+      <a href="dwres.php?resource=family-tree">Visual Distro Family Tree</a>
+      <a href="dwres.php?resource=faq#lugs">Linux User Groups</a>
+    </div>
+  </li>
+
+   <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="MenuFunction(6)">DistroWatch.com &#9660;</a>
+    <div class="dropdown-content" id="myDropdown6">
+      <a href="dwres.php?resource=about">About DistroWatch</a>
+      <a href="dwres.php?resource=contact">Contact Us</a>
+      <a href="dwres.php?resource=popularity">Page Hit Ranking</a>
+      <a href="dwres.php?resource=trending">Page Hit Trends</a>
+      <a href="dwres.php?resource=advertise">Advertise</a>
+      <a href="dwres.php?resource=faq">Frequently Asked Questions</a>
+      <a href="dwres.php?resource=contributing">Contributing</a>
+      <a href="dwres.php?resource=donate">Donate</a>
+      <a href="dwres.php?resource=donations">Our Donations Programme</a>
+    </div>
+  </li>
+
+</ul>
+
+
+<script language="JavaScript">
+<!--
+
+function ClearMenus()
+{
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+    }
+}
+
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function MenuFunction(num) {
+    var full_name = "myDropdown" + num;
+    var already_visible = false;
+
+    if ( document.getElementById(full_name).classList.contains('show') )
+       already_visible = true;
+    ClearMenus();
+    if (already_visible == false)
+       document.getElementById(full_name).classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    ClearMenus();
+  }
+}
+
+// -->
+</script>
+<h2><div id = "mnet_distrowatch_970x90"></div>
+</h2><table width="100%">
+<tr>
+<td style="width: 80%; border: 0; margin: 0; padding: 0; vertical-align: top">
+<table style="width: 100%">
+<tr>
+ <th class="Invert">
+<a href="news/distro/rocky.xml"><img src="images/other/xml.png" border=0 alt="Rocky Linux RSS Feed" title="Rocky Linux RSS Feed"></a> DistroWatch.com: Rocky Linux</th>
+</tr>
+<tr>
+  <td class="TablesTitle">
+  <a href="images/ktyxqzobhgijab/rocky.png"><img src="images/ktyxqzobhgijab/rocky-small.png" border="0" title="Rocky Linux" vspace="6" hspace="6" align="right"></a>
+  <h1>Rocky Linux</h1><div>Last Update: 2021-11-16 00:01 UTC</div><br />
+<hr><img src="images/yvzhuwbpy/rocky.png" border="0" title="Rocky Linux" vspace="18" hspace="32" align="left"><ul><li><b>OS Type:</b> <a href="search.php?ostype=Linux#simple">Linux</a><br /><li><b>Based on:</b> <a href="search.php?basedon=Red Hat#simple">Red Hat</a><br /><li><b>Origin:</b> <a href="search.php?origin=USA#simple">USA</a>
+<br /><li><b>Architecture:</b> <a href="search.php?architecture=aarch64#simple">aarch64</a>, <a href="search.php?architecture=x86_64#simple">x86_64</a><br /><li><b>Desktop:</b> <a href="search.php?desktop=GNOME#simple">GNOME</a><br /><li><b>Category:</b> <a href="search.php?category=Desktop#simple">Desktop</a>, <a href="search.php?category=Server#simple">Server</a><br /><!-- <li><b>Release Model:</b> <br /><li><b>Init:</b> <br /> --> <li><b>Status:</b> <font color="green">Active</font><br /><li><b>Popularity:</b> <a href="dwres.php?resource=popularity">34 (299 hits per day)</a>
+</ul>
+Rocky Linux is a community enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux. It is available for the x86_64 and AArch64 processor architectures.
+    <br /><br />
+<b><a href="dwres.php?resource=popularity">Popularity (hits per day)</a>:</b> 12 months: <b>45</b> (245), 6 months: <b>34</b> (299), 3 months: <b>31</b> (359), 4 weeks: <b>46</b> (249), 1 week: <b>50</b> (218)<br /><br /><b><a href="dwres.php?resource=ratings">Average visitor rating</a></b>: <b>9.05</b>/10 from <b>19</b> <a href="dwres.php?resource=ratings&distro=rocky">review(s)</a>.<br><br>
+
+  </th>
+</tr>
+</table><br />
+<table class="Info">
+  <tr>
+    <th class="Invert" colspan="2">Rocky Linux Summary</th>
+  </tr>
+  <tr class="Background">
+    <th class="Info">Distribution</th>
+    <td class="Info">Rocky Linux</td>
+  </tr>
+  <tr class="Background">
+    <th class="Info">Home Page</th>
+    <td class="Info"><a href="https://rockylinux.org/">https://rockylinux.org/</a></td>
+  </tr>
+  <tr class="Background">
+    <th class="Info">Mailing Lists</th>
+    <td class="Info">--</td>
+  </tr>
+  <tr class="Background">
+    <th class="Info">User Forums</th>
+    <td class="Info"><a href="https://forums.rockylinux.org/">https://forums.rockylinux.org/</a></td>
+  </tr>
+  <tr class="Background">
+    <th class="Info">Alternative User Forums</th>
+    <td class="Info"></td>
+  </tr>
+  <tr class="Background">
+    <th class="Info">Documentation</th>
+    <td class="Info">
+      <a href="https://wiki.rockylinux.org/">https://wiki.rockylinux.org/</a>
+    </td>
+  </tr>
+  <tr class="Background">
+    <th class="Info">Screenshots</th>
+    <td class="Info"> <a href="http://distrowatch.com/gallery.php?distribution=rocky">DistroWatch Gallery</a></td>
+  </tr>
+  <tr class="Background">
+    <th class="Info">Screencasts</th>
+    <td class="Info"></td>
+  </tr>
+  <tr class="Background">
+    <th class="Info">Download Mirrors</th>
+    <td class="Info"><a href="https://rockylinux.org/download">https://rockylinux.org/download</a></td>
+  </tr>
+  <tr class="Background">
+    <th class="Info">Bug Tracker</th>
+    <td class="Info"><a href="https://bugs.rockylinux.org/">https://bugs.rockylinux.org/</a></td>
+  </tr>
+  <tr class="Background">
+    <th class="Info">Related Websites</th>
+    <td class="Info">&nbsp;</td>
+  </tr>
+  <tr class="Background">
+    <th class="Info">Reviews</th>
+    <td class="Info">
+    8.x: <a href="https://www.dedoimedo.com/computers/rocky-linux-8.html">Dedoimedo</a><br>
+    </td>
+  </tr>
+  <tr class="Background">
+    <th class="Info">Where To Buy or Try</th>
+    <td class="Info"></td>
+  </tr>
+</table>
+    <br />
+  <table width=100%>
+  <tr>
+    <td style="width: 75%; border: 0; margin: 0; padding: 0; vertical-align: top">
+<table class="Info">  <tr>    <th class="Invert" style="width: 100%">Recent Related News and Releases</th>  </tr>  <tr class="Background">    <td class="Info" style="width: 100%">&nbsp;&nbsp;<b>Releases announcements with download links and checksums:</b><br>
+&nbsp;&bull; 2021-11-16: <a href="11398">Distribution Release: Rocky Linux 8.5</a><br />&nbsp;&bull; 2021-06-21: <a href="11280">Distribution Release: Rocky Linux 8.4</a><br />&nbsp;&bull; 2021-06-09: <a href="11272">Development Release: Rocky Linux 8.4 RC1</a><br />&nbsp;&bull; 2021-05-01: <a href="11233">Development Release: Rocky Linux 8.3 RC1</a><br />    &nbsp;&bull; <a href="index.php?distribution=rocky"><b>More Rocky releases...</b></a><br><br>&nbsp;&nbsp;<b>Headlines:</b><br>
+&nbsp;&bull;2021-11-03 <a href="dwres.php?resource=showheadline&story=13951">Rocky Linux team answers questions on Reddit</a><br>&nbsp;&bull;2021-06-03 <a href="dwres.php?resource=showheadline&story=13171">Rocky publishes status update</a><br>&nbsp;&bull; <a href="dwres.php?resource=headlines&distro=rocky"><b>More Rocky headlines...</b></a><br>    </td>  </tr></table>    </td>
+  </tr>
+  </table><br />
+<table class="Info" style="width: 100%">
+<tr>
+<th class="Invert">Table Notes and Explanations</th>
+</tr>
+<tr class="Background">
+<td style="width: 100%">
+<div style="float:left; margin-right:25px;"><div id = "mnet_rectangle"></div>
+</div><br />(<i>Please refer to the table below.</i>)<br />
+<form action="./table.php?distribution=rocky" enctype="multipart/form-data" method="post"><ul><li><b>Select view:</b> <input type="radio" name="view" value="major" id="rb-view-major"><label for="rb-view-major">Major packages only (52)</label> <input type="radio" name="view" value="all" id="rb-view-all" checked><label for="rb-view-all">All tracked packages (226)</label> <input type="submit" name="refresh" value="Refresh">
+</form></li></ul>
+<ul><li>To compare the software in this project to the software available in other distributions, please see our <a href="dwres.php?resource=compare-packages&firstlist=rocky"><b>Compare Packages</b></a> page.</li></ul><ul><li><b>Notes:</b> In case where multiple versions of a package are shipped with a distribution, only the default version appears in the table. For indication about the GNOME version, please check the "nautilus" and "gnome-shell" packages. The Apache web server is listed as "httpd" and the Linux kernel is listed as "linux". The KDE desktop is represented by the "plasma-desktop" package and the Xfce desktop by the "xfdesktop" package.<br /></li></ul><ul><li><b>Colour scheme:</b> <span class="Current">green text</span> = latest stable version, <span class="Beta">red text</span> = development or beta version. The function determining beta versions is not 100% reliable due to a wide variety of versioning schemes.</li></ul>    </td>
+    </tr>
+   </table>
+    <td style="width: 20%; border: 0; margin: 0; padding: 0; vertical-align: top">
+      <table class="News">
+        <tr>
+          <th class="Invert">TUXEDO</th>
+        </tr>
+        <tr>
+          <td class="News" style="text-align: center">
+            <a href="https://www.tuxedocomputers.com/"><img src="images/k/txd.png" border="0" alt="TUXEDO Computers"></a><br />
+Get your Linux laptop at <b>TUXEDO Computers</b> today! Choose from a wide variety of Linux laptops with both <b>AMD Ryzen</b> and <b>Intel Core i</b> processors. All coming pre-installed and ready-to-run with Ubuntu or openSUSE. Full <b>24 months of warranty</b> included!<br /><br /><a href="https://www.tuxedocomputers.com/">TUXEDOComputers.com</a></b>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <table class="News">
+        <tr>
+          <th class="Invert">Star Labs</th>
+        </tr>
+        <tr>
+          <td class="News" style="text-align: center"><br>
+            <a href="https://starlabs.systems/"><img src="images/k/starlabs.png" border="0" alt="Star Labs Systems | Laptops designed for Linux"></a><br><br>
+<b>Star Labs - Laptops built for Linux.</b><br>
+View our range including the <a href="https://starlabs.systems/pages/lite-mk-iii">StarLite</a> and the <a href="https://starlabs.systems/pages/starbook">StarBook</a>. Available with coreboot open-source firmware and a choice of Ubuntu, elementary, Manjaro and more. Visit <a href="https://starlabs.systems">Star Labs</a> for information, to buy and get support.<br><br>
+          </td>
+        </tr>
+      </table>
+      <br>
+<table class="News" width="100%">
+<tr>
+<th class="Invert">Free Tech Guides</th>
+</tr>
+<tr>
+<td class="News" style="text-align: center">
+<br /><b><font color="red">NEW!</font> <a href="fikekhkpcrbv">PHP Notes for Professionals</b></a><br /><br /><a href="fikekhkpcrbv"><img border="1" src="images/cpxtu/okkbcseilakrm-phpnotpro.png" title="PHP Notes for Professionals"></a><br /><br /><b><font color="red">NEW!</font> <a href="fikekhkpcrbv">Navigate PHP</a>, a server-side scripting language designed for web development (a free 479-page ebook).</b><br /><br /></td>
+</tr>
+</table>
+<br />
+    </td>
+  </tr>
+  </table><br />
+<table>
+  <tr>
+   <th class="TablesInvert">Feature</th>
+    <td class="TablesInvert">8.5</td>
+  </tr>
+  <tr>
+    <th>Release Date</th>
+    <td class="Date">2021-11-15</td>
+  </tr>
+  <tr class="Background">
+    <th>End Of Life</th>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th>Price (US$)</th>
+    <td>Free</td>
+  </tr>
+  <tr class="Background">
+    <th>Image Size (MB)</th>
+    <td>700-9500</td>
+  </tr>
+  <tr>
+    <th>Free Download</th>
+    <td><a href="https://download.rockylinux.org/pub/rocky/8.4/isos/">ISO</a></td>
+  </tr>
+  <tr class="Background">
+    <th>Installation</th>
+    <td>Graphical</td>
+  </tr>
+  <tr>
+    <th>Default Desktop</th>
+    <td>GNOME</td>
+  </tr>
+  <tr class="Background">
+    <th>Package Management</th>
+    <td>RPM (dnf)</td>
+  </tr>
+  <tr>
+    <th>Release Model</th>
+    <td>Fixed</td>
+  </tr>
+  <tr class="Background">
+    <th>Office Suite</th>
+    <td>LibreOffice</td>
+  </tr>
+  <tr>
+    <th>Processor Architecture</th>
+    <td>aarch64, x86_64</td>
+  </tr>
+  <tr class="Background">
+    <th>Init Software</th>
+    <td>systemd</td>
+  </tr>
+  <tr>
+    <th>Journaled File Systems</th>
+    <td>Btrfs, ext4</td>
+  </tr>
+  <tr class="Background">
+    <th>Multilingual</th>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <th>Asian Language Support</th>
+    <td>--</td>
+  </tr>
+  <tr class="Background">
+    <th>Full Package List</th>
+    <td><a href="table.php?distribution=rocky&pkglist=true&version=8.5#pkglist">8.5</a></td>
+  </tr>
+  <tr>
+   <th class="TablesInvert">Package</th>
+    <td class="TablesInvert">8.5</td>
+  </tr>
+  <tr>
+    <th><a title="AbiWord: a full-featured word processor
+" href="https://www.abisource.com/">abiword</a> (<a href="https://www.abisource.com/downloads/abiword/3.0.5/source/abiword-3.0.5.tar.gz">3.0.5</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="alsa-lib: an audio library for use with the ALSA kernel modules
+" href="http://www.alsa-project.org/">alsa-lib</a> (<a href="https://www.alsa-project.org/files/pub/lib/alsa-lib-1.2.6.1.tar.bz2">1.2.6.1</a>)</th>
+    <td>1.2.5</td>
+  </tr>
+  <tr>
+    <th><a title="ATI driver: a proprietary Linux display driver for XFree86/X.Org by ATI, the Catalyst series
+" href="http://support.amd.com/en-us/download">ati-driver</a> (<a href="http://support.amd.com/en-us/download">20.45</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Bash: an sh-compatible command language interpreter
+" href="http://www.gnu.org/software/bash/bash.html">bash</a> (<a href="http://ftp.gnu.org/gnu/bash/bash-5.1.8.tar.gz">5.1.8</a>)</th>
+    <td>4.4</td>
+  </tr>
+  <tr>
+    <th><a title="ISC BIND: an implementation of the Domain Name System (DNS) protocols
+" href="http://www.isc.org/downloads/bind/">bind</a> (<a href="https://ftp.isc.org/isc/bind9/9.16.24/bind-9.16.24.tar.xz">9.16.24</a>)</th>
+    <td>9.11.26</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Google Chromium: an open-source edition of Google Chrome, a graphical web browser
+" href="http://www.chromium.org/Home">chromium</a> (<a href="http://src.chromium.org/viewvc/chrome/">96.0.4664.110</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th><a title="CUPS: a UNIX printing system based on the Internet Printing Protocol
+" href="https://openprinting.github.io/">cups</a> (<a href="https://github.com/OpenPrinting/cups/releases/download/v2.4.0/cups-2.4.0-source.tar.gz">2.4.0</a>)</th>
+    <td>2.2.6</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="ISC DHCP: a server and client for automatic IP configuration
+" href="http://www.isc.org/downloads/dhcp/">dhcp</a> (<a href="https://downloads.isc.org/isc/dhcp/4.4.2-P1/dhcp-4.4.2-P1.tar.gz">4.4.2-P1</a>)</th>
+    <td>4.3.6</td>
+  </tr>
+  <tr>
+    <th><a title="e2fsprogs: contains the required utilities for the EXT2 file system
+" href="http://e2fsprogs.sourceforge.net/">e2fsprogs</a> (<a href="http://downloads.sourceforge.net/e2fsprogs/e2fsprogs-1.46.5.tar.gz">1.46.5</a>)</th>
+    <td>1.45.6</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Mozilla Firefox: a web browser for Windows, Linux, macOS, FreeBSD and Android
+" href="http://www.mozilla.org/products/firefox/">firefox</a> (<a href="https://ftp.mozilla.org/pub/firefox/releases/95.0.2/source/firefox-95.0.2.source.tar.xz">95.0.2</a>)</th>
+    <td>78.13.0</td>
+  </tr>
+  <tr>
+    <th><a title="FreeType: a free, quality, portable font engine
+" href="https://www.freetype.org/">freetype</a> (<a href="http://downloads.sourceforge.net/freetype/freetype-2.11.1.tar.xz">2.11.1</a>)</th>
+    <td>2.9.1</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="GNU GCC: the GNU compiler collection
+" href="http://gcc.gnu.org/">gcc</a> (<a href="http://ftp.gnu.org/gnu/gcc/gcc-11.2.0/gcc-11.2.0.tar.xz">11.2.0</a>)</th>
+    <td>8.5.0</td>
+  </tr>
+  <tr>
+    <th><a title="GIMP: the GNU Image Manipulation Program
+" href="https://www.gimp.org/">gimp</a> (<a href="https://download.gimp.org/mirror/pub/gimp/v2.10/gimp-2.10.30.tar.bz2">2.10.30</a>)</th>
+    <td>2.8.22</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="glibc: a C library for use with GNU/Hurd and GNU/Linux
+" href="http://www.gnu.org/software/libc/libc.html">glibc</a> (<a href="http://ftp.gnu.org/gnu/glibc/glibc-2.34.tar.xz">2.34</a>)</th>
+    <td>2.28</td>
+  </tr>
+  <tr>
+    <th><a title="GNOME Shell: a core user interface of the GNOME 3 desktop
+" href="https://wiki.gnome.org/Projects/GnomeShell">gnome-shell</a> (<a href="https://download.gnome.org/sources/gnome-shell/41/gnome-shell-41.2.tar.xz">41.2</a>)</th>
+    <td>3.32.2</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="GNUCash: an open source personal finance suite
+" href="http://www.gnucash.org/">gnucash</a> (<a href="http://downloads.sourceforge.net/gnucash/gnucash-4.9.tar.bz2">4.9</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th><a title="Gnumeric: a spreadsheet and a part of the GNOME Desktop
+" href="http://www.gnumeric.org/">gnumeric</a> (<a href="https://download.gnome.org/sources/gnumeric/1.12/gnumeric-1.12.50.tar.xz">1.12.50</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="GRUB: the GRand Unified Bootloader
+" href="http://www.gnu.org/software/grub/">grub</a> (<a href="https://ftp.gnu.org/gnu/grub/grub-2.06.tar.xz">2.06</a>)</th>
+    <td>2.02</td>
+  </tr>
+  <tr>
+    <th><a title="GTK: a multi-platform toolkit for creating GUIs
+" href="https://www.gtk.org/">gtk</a> (<a href="https://download.gnome.org/sources/gtk/4.6/gtk-4.6.0.tar.xz">4.6.0</a>)</th>
+    <td>2.24.32</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="httpd: a high-performance HTTP server, Apache 2.x version series
+" href="http://httpd.apache.org/">httpd</a> (<a href="https://archive.apache.org/dist/httpd/httpd-2.4.52.tar.bz2">2.4.52</a>)</th>
+    <td>2.4.37</td>
+  </tr>
+  <tr>
+    <th><a title="Inkscape: a drawing tool that uses the W3C standard scalable vector graphics format (SVG)
+" href="https://www.inkscape.org/">inkscape</a> (<a href="https://inkscape.org/gallery/item/29255/inkscape-1.1.1_2021-09-20_3bf5ae0d25.tar.xz">1.1.1</a>)</th>
+    <td>0.92.3</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="K3b: a KDE-GUI for cdrecord and cdrdao, similar to Nero
+" href="http://www.k3b.org/">k3b</a> (<a href="https://github.com/KDE/k3b/archive/v21.12.0.tar.gz">21.12.0</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th><a title="kmod: a set of programs for loading, inserting and removing kernel modules
+" href="https://www.kernel.org/pub/linux/utils/kernel/kmod/">kmod</a> (<a href="https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-29.tar.xz">29</a>)</th>
+    <td>25</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Krita: a cross-platform application that offers an end-to-end solution for creating digital art files from scratch
+" href="https://krita.org/">krita</a> (<a href="https://download.kde.org/stable/krita/5.0.0/krita-5.0.0.tar.xz">5.0.0</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th><a title="LibreOffice: a free personal productivity suite
+" href="http://www.libreoffice.org/">libreoffice</a> (<a href="https://download.documentfoundation.org/libreoffice/stable/7.2.4/">7.2.4</a>)</th>
+    <td>6.4.7.2</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Linux kernel: a UNIX clone written from scratch by Linus Torvalds
+" href="https://www.kernel.org/">linux</a> (<a href="https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.15.12.tar.xz">5.15.12</a>)</th>
+    <td>4.18.0</td>
+  </tr>
+  <tr>
+   <th class="TablesInvert">Package</th>
+    <td class="TablesInvert">8.5</td>
+  </tr>
+  <tr>
+    <th><a title="LXDE: a lightweight, fast and energy-saving desktop environment
+" href="https://sourceforge.net/projects/lxde/">lxpanel</a> (<a href="http://downloads.sourceforge.net/lxde/lxpanel-0.10.1.tar.xz">0.10.1</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="MariaDB: a robust SQL server, a fork of MySQL
+" href="https://mariadb.org/">mariadb</a> (<a href="ftp://ftp.osuosl.org/pub/mariadb/mariadb-10.6.5/source/mariadb-10.6.5.tar.gz">10.6.5</a>)</th>
+    <td>10.3.28</td>
+  </tr>
+  <tr>
+    <th><a title="MATE: a traditional desktop environment forked from GNOME 2
+" href="http://mate-desktop.org/">mate-desktop</a> (<a href="http://pub.mate-desktop.org/releases/1.26/mate-desktop-1.26.0.tar.xz">1.26.0</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Mesa: a 3D graphics library
+" href="http://www.mesa3d.org/">mesa</a> (<a href="https://mesa.freedesktop.org/archive/mesa-21.3.3.tar.xz">21.3.3</a>)</th>
+    <td>21.1.5</td>
+  </tr>
+  <tr>
+    <th><a title="MySQL: an SQL database server
+" href="https://dev.mysql.com/downloads/mysql/">mysql</a> (<a href="https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-8.0.27.tar.gz">8.0.27</a>)</th>
+    <td>8.0.26</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Nautilus: a file manager for the GNOME desktop
+" href="https://wiki.gnome.org/Apps/Files">nautilus</a> (<a href="https://download.gnome.org/sources/nautilus/41/nautilus-41.1.tar.xz">41.1</a>)</th>
+    <td>3.28.1</td>
+  </tr>
+  <tr>
+    <th><a title="NVIDIA: a proprietary display driver for Linux, FreeBSD and Solaris
+" href="http://www.nvidia.com/object/unix.html">NVIDIA</a> (<a href="http://download.nvidia.com/XFree86/Linux-x86_64/495.46/NVIDIA-Linux-x86_64-495.46.run">495.46</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Openbox: a standards-compliant, lightweight, extensible window manager
+" href="http://openbox.org/">openbox</a> (<a href="http://openbox.org/dist/openbox/openbox-3.6.1.tar.gz">3.6.1</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th><a title="OpenJDK: a complete and free implementation of Java SE, the core Java platform
+" href="https://openjdk.java.net/">openjdk</a> (<a href="https://download.java.net/java/GA/jdk17.0.1/2a2082e5a09d4267845be086888add4f/12/GPL/openjdk-17.0.1_linux-x64_bin.tar.gz">17.0.1</a>)</th>
+    <td>11.0.11.0.9</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="OpenSSH: a client and server for encrypted remote logins and file transfers
+" href="http://www.openssh.com/portable.html">openssh</a> (<a href="https://ftp3.usa.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-8.8p1.tar.gz">8.8p1</a>)</th>
+    <td>8.0p1</td>
+  </tr>
+  <tr>
+    <th><a title="OpenSSL: a library for providing encrypted transport layers
+" href="https://www.openssl.org/">openssl</a> (<a href="https://ftp.openssl.org/source/openssl-3.0.1.tar.gz">3.0.1</a>)</th>
+    <td>1.1.1k</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Perl: Larry Wall's Practical Extraction and Reporting Language
+" href="https://www.perl.org">perl</a> (<a href="http://www.cpan.org/src/5.0/perl-5.34.0.tar.gz">5.34.0</a>)</th>
+    <td>5.24.4</td>
+  </tr>
+  <tr>
+    <th><a title="PHP: a server-side HTML embedded scripting language
+" href="http://www.php.net/">php</a> (<a href="http://us3.php.net/distributions/php-8.1.1.tar.xz">8.1.1</a>)</th>
+    <td>7.2.24</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Plasma Desktop: a desktop environment
+" href="https://kde.org/plasma-desktop/">plasma-desktop</a> (<a href="https://download.kde.org/stable/plasma/5.23.4/plasma-desktop-5.23.4.tar.xz">5.23.4</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th><a title="Postfix: a mail transport agent
+" href="http://www.postfix.org/">postfix</a> (<a href="https://de.postfix.org/ftpmirror/official//postfix-3.6.3.tar.gz">3.6.3</a>)</th>
+    <td>3.5.8</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="PostgreSQL: a relational database management system
+" href="https://www.postgresql.org/">postgresql</a> (<a href="https://ftp.postgresql.org/pub/source/v14.1/postgresql-14.1.tar.bz2">14.1</a>)</th>
+    <td>10.17</td>
+  </tr>
+  <tr>
+    <th><a title="Python: an interpreted, interactive, object-oriented programming language
+" href="https://www.python.org/">Python</a> (<a href="https://www.python.org/ftp/python/3.10.1/Python-3.10.1.tgz">3.10.1</a>)</th>
+    <td>3.9.2</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Qt: a C++ application framework for writing graphical applications
+" href="http://qt-project.org/">qt</a> (<a href="http://download.qt-project.org/official_releases/qt/6.2/6.2.2/single/qt-everywhere-src-6.2.2.tar.xz">6.2.2</a>)</th>
+    <td>5.15.2</td>
+  </tr>
+  <tr>
+    <th><a title="Samba: a free software re-implementation of SMB/CIFS networking protocol
+" href="https://www.samba.org/">samba</a> (<a href="https://us1.samba.org/samba/ftp/stable/samba-4.15.3.tar.gz">4.15.3</a>)</th>
+    <td>4.14.5</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="systemd: a system and service manager for Linux
+" href="http://www.freedesktop.org/wiki/Software/systemd/">systemd</a> (<a href="https://github.com/systemd/systemd-stable/archive/refs/tags/v250.tar.gz">250</a>)</th>
+    <td>239</td>
+  </tr>
+  <tr>
+    <th><a title="Mozilla Thunderbird: a full-featured e-mail and newsgroup client
+" href="http://www.mozilla.org/products/thunderbird/">thunderbird</a> (<a href="https://ftp.mozilla.org/pub/thunderbird/releases/91.4.1/source/thunderbird-91.4.1.source.tar.xz">91.4.1</a>)</th>
+    <td>78.13.0</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Vim: an improved version of the editor "vi", one of the standard text editors on UNIX
+" href="http://www.vim.org/">vim</a> (<a href="ftp://ftp.vim.org/pub/vim/unix/vim-8.2.tar.bz2">8.2</a>)</th>
+    <td>8.0</td>
+  </tr>
+  <tr>
+    <th><a title="VLC: a cross-platform media player and streaming server
+" href="http://www.videolan.org/streaming/">vlc</a> (<a href="http://download.videolan.org/pub/videolan/vlc/3.0.16/vlc-3.0.16.tar.xz">3.0.16</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr class="Background">
+    <th><a title="Xfdesktop: a desktop manager for the Xfce desktop
+" href="http://www.xfce.org/">xfdesktop</a> (<a href="http://archive.xfce.org/src/xfce/xfdesktop/4.16/xfdesktop-4.16.0.tar.bz2">4.16.0</a>)</th>
+    <td>--</td>
+  </tr>
+  <tr>
+    <th><a title="X.Org: the X.Org Foundation's public implementation of the X Window System
+" href="https://www.x.org/">xorg-server</a> (<a href="https://www.x.org/archive/individual/xserver/xorg-server-21.1.2.tar.xz">21.1.2</a>)</th>
+    <td>1.20.11</td>
+  </tr>
+</table>
+<br /><table class="Info" style="width: 100%">
+<tr>
+<th class="Invert">Reader Ratings</th>
+</tr>
+<tr class="Background">
+<td style="width: 100%">
+<blockquote><table width="90%" cellpadding="5">
+<tr>
+<td width="80%" valign="top" align="left" style="border: 0px">
+<div style="float:right; margin-left: 10px"><div id = "mnet_Skyscraper-2"></div>
+</div><a name="ratings"></a><b>Reader supplied reviews for Rocky Linux</b><br /><br />
+Average rating<br /><div style="font-size: 64px; text-align: left">9.1</div>from <b>19</b> review(s)<br />
+<form name="newreview" action="dwres.php" method="post">
+<br /><hr>
+<br /><b>What are your thoughts on Rocky Linux?</b><br />Please include a few pros and a few cons, along with your overall impression of the operating system.<br />
+Our FAQ page has <a href="dwres.php?resource=faq#ratings">tips on writing a good mini-review</a>.<br /><br />
+<input type=hidden name=resource value="ratings">
+<input type=hidden name=distro value="rocky">
+<input type=hidden name=distribution value="rocky">
+Version: <select name=version>
+<option value="0">--</option>
+<option value="8.5">8.5</option><option value=""></option></select>
+<br /><br />Rating: &nbsp;&nbsp;<select name=stars>
+<option value="0">--</option>
+<option value="10">10</option>
+<option value="9">9</option>
+<option value="8">8</option>
+<option value="7">7</option>
+<option value="6">6</option>
+<option value="5">5</option>
+<option value="4">4</option>
+<option value="3">3</option>
+<option value="2">2</option>
+<option value="1">1</option>
+</select> out of 10
+<br /><br />Comments (minimum 2,000 words):<br /><textarea name="body" cols="78" rows="18" maxlength="2040"></textarea>
+<br /><br /><input type=submit value="Submit Review">
+</form>
+<br /><hr><form name="sortreviews" method="get">
+<input type="hidden" name="resource" value="ratings">
+<input type="hidden" name="distro" value="rocky">
+<input type="hidden" name="distribution" value="rocky">
+<b>Past reviews</b> - sort by: <select name="sortby">
+<option selected value="date">Date</option><option value="votes">Votes</option>
+</select>
+<input type="submit" value="Go">
+</form>
+<br /><table style="border: 2" width="100%" cellspacing="5" cellpadding="5">
+<tr style="outline: thin solid black">
+<td width=30% style="border:0" valign=top>
+<b>Version:</b> 8.5<br /><b>Rating:</b> 10<br /><b>Date:</b> 2021-12-26<br /><b>Votes:</b> 7<br /><br /><br /></td>
+<td width="70%" style="border:0" valign="top">
+This has been pretty stable and easy-to-use for me. I transferred over from CentOS to Rocky and everything has been transferred and is working well, even less resource usage than CentOS. Applications have responded quickly and if I had any questions, I could ask the community who are helpful and friendly. Iâm happy I donât have to panic anymore when I was using CentOS when I found out they were cutting short support because Rocky Linux was there to make the transfer easy and smooth.<br /><br /><br /><form name=like method=get>
+<input type=hidden name=resource value=ratings>
+<input type=hidden name=distro value="rocky">
+<input type=hidden name=distribution value="rocky">
+<input type=hidden name=likepost value="41556">Was this review helpful? <input type=radio name=helpful value="Yes"> Yes 
+<input type=radio name=helpful value="No"> No 
+<input type=submit value="Vote">
+</form>
+</td>
+</tr>
+<tr style="outline: thin solid black">
+<td width=30% style="border:0" valign=top>
+<b>Version:</b> 8.5<br /><b>Rating:</b> 10<br /><b>Date:</b> 2021-12-14<br /><b>Votes:</b> 23<br /><br /><br /></td>
+<td width="70%" style="border:0" valign="top">
+Rock solid-stable, easy-to-use, transfer tool from CentOS works flawlessly and transferred everything over to Rocky. For the only negative, I disagree with using gnome as a desktop environment, Iâd prefer KDE instead because gnome is a heavyweight desktop environment and is user unfriendly. The original creator of CentOS (not the new puppet Red Hat put in) started this project and listens to the users and is pretty active & the community is helpful and friendly too, you donât get that with CentOS at all. Applications are very responsive and Rocky has overall been a joy to use.<br /><br /><br /><form name=like method=get>
+<input type=hidden name=resource value=ratings>
+<input type=hidden name=distro value="rocky">
+<input type=hidden name=distribution value="rocky">
+<input type=hidden name=likepost value="41340">Was this review helpful? <input type=radio name=helpful value="Yes"> Yes 
+<input type=radio name=helpful value="No"> No 
+<input type=submit value="Vote">
+</form>
+</td>
+</tr>
+<tr style="outline: thin solid black">
+<td width=30% style="border:0" valign=top>
+<b>Version:</b> 8.5<br /><b>Rating:</b> 10<br /><b>Date:</b> 2021-12-07<br /><b>Votes:</b> 18<br /><br /><br /></td>
+<td width="70%" style="border:0" valign="top">
+Works great, is stable, speedy and works out of the box. The tool to switch over from CentOS to Rocky works great and transferred all of my data over. Perfect community supported enterprise distro.<br /><br /><br /><form name=like method=get>
+<input type=hidden name=resource value=ratings>
+<input type=hidden name=distro value="rocky">
+<input type=hidden name=distribution value="rocky">
+<input type=hidden name=likepost value="41159">Was this review helpful? <input type=radio name=helpful value="Yes"> Yes 
+<input type=radio name=helpful value="No"> No 
+<input type=submit value="Vote">
+</form>
+</td>
+</tr>
+</table>
+<br />
+<a href="dwres.php?resource=ratings&distro=rocky"><b>See all 19 reader reviews of Rocky Linux...</b></a><br /></td></tr></table>
+
+</blockquote></td>
+</tr>
+</table>
+<br /><div id = "mnet_billboard-970x250"></div>
+<hr><table width="100%" border="0">  <tr><td style="width: 100%; text-align: center; border: 0px">Copyright (C) 2001 - 2022 Atea Ataroa Limited. All rights reserved. All trademarks are the property of their respective owners. <a href="dwres.php?resource=privacy">Privacy policy</a>. <a href="#" onclick="if(window.__lxG__consent__ !== undefined) {window.__lxG__consent__.showConsent()} else {alert('This function only for users from European Economic Area (EEA)')}; return false">Change privacy settings</a>.<br />DistroWatch.com is hosted at <a href="https://distrowatch.com/">Copenhagen</a>.<br /><br />Contact, corrections and suggestions: <a href="mailto:&#100;&#105;&#115;&#116;&#114;&#111;&#64;&#100;&#105;&#115;&#116;&#114;&#111;&#119;&#97;&#116;&#99;&#104;&#46;&#99;&#111;&#109;">Jesse Smith</a><br />
+Tips: BTC bc1qtede6f7adcce4kjpgx0e5j68wwgtdxrek2qvc4 &bull; XMR 86fA3qPTeQtNb2k1vLwEQaAp3XxkvvvXt69gSG5LGunXXikK9koPWZaRQgfFPBPWhMgXjPjccy9LA9xRFchPWQAnPvxh5Le &bull; <a href="https://www.paypal.me/distrowatchweekly">PayPal.me/distrowatchweekly</a>    </td>
+  </tr>
+</table><br />
+<br /><br /><br /><br /><br />
+</body>
+</html>

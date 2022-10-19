@@ -20,8 +20,10 @@ my @distros = (
     "debian",
     "ubuntu",
     "mint",
-    "centos",
+    #"centos",
     "redhat",
+    "rocky",
+    "alma",
 );
 for my $distro (@distros) {
     my $time = time();

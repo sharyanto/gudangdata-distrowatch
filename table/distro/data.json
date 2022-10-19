@@ -19,6 +19,10 @@
    "armbian" : "Armbian",
    "artix" : "Artix",
    "avlinux" : "AV Linux",
+<<<<<<< HEAD
+=======
+   "backbox" : "BackBox",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    "baruwa" : "Baruwa",
    "batocera" : "Batocera",
    "bedrock" : "Bedrock",
@@ -48,6 +52,11 @@
    "diamond" : "Diamond",
    "dietpi" : "DietPi",
    "dragonflybsd" : "DragonFly",
+<<<<<<< HEAD
+=======
+   "dragora" : "Dragora",
+   "drbl" : "DRBL",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    "easynas" : "EasyNAS",
    "easyos" : "EasyOS",
    "elastix" : "Elastix",
@@ -73,6 +82,7 @@
    "freespire" : "Freespire",
    "fuguita" : "FuguIta",
    "funtoo" : "Funtoo",
+   "fwul" : "FWUL",
    "garuda" : "Garuda",
    "gecko" : "Gecko",
    "gentoo" : "Gentoo",
@@ -97,8 +107,8 @@
    "kodachi" : "Kodachi",
    "kolibri" : "KolibriOS",
    "kubuntu" : "Kubuntu",
-   "kwort" : "Kwort",
    "lakka" : "Lakka",
+   "leeenux" : "Leeenux",
    "lfs" : "LFS",
    "libreelec" : "LibreELEC",
    "linspire" : "Linspire",
@@ -106,8 +116,13 @@
    "lite" : "Lite",
    "liveraizo" : "Live Raizo",
    "lliurex" : "LliureX",
+   "lockbox" : "LockBox",
    "lubuntu" : "Lubuntu",
+<<<<<<< HEAD
    "lxle" : "LXLE",
+=======
+   "luninux" : "LuninuX",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    "mabox" : "Mabox",
    "mageia" : "Mageia",
    "makulu" : "MakuluLinux",
@@ -116,7 +131,11 @@
    "midnightbsd" : "MidnightBSD",
    "mint" : "Mint",
    "miracle" : "Miracle",
+<<<<<<< HEAD
    "murena" : "Murena",
+=======
+   "mll" : "MLL",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    "mx" : "MX Linux",
    "navy" : "Navy",
    "neptune" : "Neptune",
@@ -183,22 +202,39 @@
    "redo" : "Redo",
    "refracta" : "Refracta",
    "regata" : "Regata",
+<<<<<<< HEAD
+=======
+   "remnux" : "REMnux",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    "rescatux" : "Rescatux",
    "rescuezilla" : "Rescuezilla",
    "risc" : "RISC",
    "robolinux" : "Robolinux",
+<<<<<<< HEAD
    "rockstor" : "Rockstor",
+=======
+   "rockscluster" : "Rocks Cluster",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    "rocky" : "Rocky",
    "rosa" : "ROSA",
    "rss" : "RSS",
    "runtu" : "Runtu",
    "salient" : "Salient",
+<<<<<<< HEAD
    "salix" : "Salix",
    "scientific" : "Scientific",
+=======
+   "scientific" : "Scientific",
+   "securepoint" : "Securepoint",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    "selks" : "SELKS",
    "septor" : "Septor",
    "sharklinux" : "Shark",
    "siduction" : "siduction",
+<<<<<<< HEAD
+=======
+   "simplicity" : "Simplicity",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    "skolelinux" : "Debian Edu",
    "slackel" : "Slackel",
    "slackware" : "Slackware",
@@ -229,7 +265,10 @@
    "trisquel" : "Trisquel",
    "truenas" : "TrueNAS",
    "turnkey" : "TurnKey",
+<<<<<<< HEAD
    "tuxedo" : "TUXEDO",
+=======
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    "ubos" : "UBOS",
    "ubports" : "UBports",
    "ubuntu" : "Ubuntu",
@@ -253,6 +292,10 @@
    "voyager" : "Voyager",
    "vyos" : "VyOS",
    "vz" : "VzLinux",
+<<<<<<< HEAD
+=======
+   "webconverger" : "Webconverger",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    "whonix" : "Whonix",
    "wifislax" : "Wifislax",
    "xero" : "XeroLinux",
@@ -262,7 +305,10 @@
    "yunohost" : "YunoHost",
    "zentyal" : "Zentyal",
    "zenwalk" : "Zenwalk",
+<<<<<<< HEAD
    "zephix" : "Zephix",
+=======
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    "zevenet" : "Zevenet",
    "zorin" : "Zorin"
 }

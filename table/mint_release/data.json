@@ -1242,7 +1242,11 @@
       "dhcp_version" : "4.4.1",
       "e2fsprogs_version" : "1.45.5",
       "eol_date" : " ",
+<<<<<<< HEAD
       "firefox_version" : "95.0.1",
+=======
+      "firefox_version" : "89.0.2",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
       "freetype_version" : "2.10.1",
       "gcc_version" : "9.3.0",
       "gimp_version" : "--",
@@ -1261,8 +1265,13 @@
       "linux_version" : "5.4",
       "lxpanel_version" : "--",
       "mariadb_version" : "--",
+<<<<<<< HEAD
       "mate_desktop_version" : "1.26.0",
       "mesa_version" : "21.0.3",
+=======
+      "mate_desktop_version" : "1.24.0",
+      "mesa_version" : "20.2.6",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
       "mysql_version" : "--",
       "nautilus_version" : "--",
       "nvidia_version" : "--",
@@ -1277,6 +1286,7 @@
       "postgresql_version" : "--",
       "python_version" : "3.8.2",
       "qt_version" : "5.12.8",
+<<<<<<< HEAD
       "release_date" : "2022-01-06",
       "release_name" : "20.3una",
       "samba_version" : "4.13.14",
@@ -1398,5 +1408,16 @@
       "vlc_version" : "--",
       "xfdesktop_version" : "4.16.0",
       "xorg_server_version" : "21.1.3"
+=======
+      "release_date" : "2021-07-08",
+      "release_name" : "20.2uma",
+      "samba_version" : "4.11.6",
+      "systemd_version" : "245.4",
+      "thunderbird_version" : "78.8.1",
+      "vim_version" : "8.1",
+      "vlc_version" : "--",
+      "xfdesktop_version" : "4.16.0",
+      "xorg_server_version" : "1.20.9"
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    }
 ]

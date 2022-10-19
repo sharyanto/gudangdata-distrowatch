@@ -338,7 +338,11 @@
    {
       "abiword_version" : "--",
       "alsa_lib_version" : "1.2.5",
+<<<<<<< HEAD
       "amdgpu_version" : "--",
+=======
+      "ati_driver_version" : "--",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
       "bash_version" : "4.4",
       "bind_version" : "9.11.26",
       "chromium_version" : "--",
@@ -394,7 +398,11 @@
    {
       "abiword_version" : "--",
       "alsa_lib_version" : "1.2.5.1",
+<<<<<<< HEAD
       "amdgpu_version" : "--",
+=======
+      "ati_driver_version" : "--",
+>>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
       "bash_version" : "5.1",
       "bind_version" : "9.16.20",
       "chromium_version" : "--",
