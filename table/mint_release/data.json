@@ -52,6 +52,7 @@
       "thunderbird_version" : "--",
       "vim_version" : "7.0",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.1.1"
    },
@@ -108,6 +109,7 @@
       "thunderbird_version" : "--",
       "vim_version" : "7.0",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.1.1"
    },
@@ -164,6 +166,7 @@
       "thunderbird_version" : "--",
       "vim_version" : "7.0",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.1.1"
    },
@@ -220,6 +223,7 @@
       "thunderbird_version" : "1.5.0.10",
       "vim_version" : "7.0",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.2.0"
    },
@@ -276,6 +280,7 @@
       "thunderbird_version" : "1.5.0.10",
       "vim_version" : "7.0",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.2.0"
    },
@@ -332,6 +337,7 @@
       "thunderbird_version" : "2.0.0.6",
       "vim_version" : "7.1",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.3.0.0"
    },
@@ -388,6 +394,7 @@
       "thunderbird_version" : "2.0.0.14",
       "vim_version" : "7.1",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.4.1git"
    },
@@ -444,6 +451,7 @@
       "thunderbird_version" : "2.0.0.17",
       "vim_version" : "7.1",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.5.2"
    },
@@ -500,6 +508,7 @@
       "thunderbird_version" : "2.0.0.21",
       "vim_version" : "7.2",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.6.0"
    },
@@ -556,6 +565,7 @@
       "thunderbird_version" : "2.0.0.23",
       "vim_version" : "7.2",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.6.4"
    },
@@ -612,6 +622,7 @@
       "thunderbird_version" : "3.0.4",
       "vim_version" : "7.2",
       "vlc_version" : "1.0.6",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.7.6"
    },
@@ -668,6 +679,7 @@
       "thunderbird_version" : "3.1.4",
       "vim_version" : "7.2",
       "vlc_version" : "1.1.4",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.9.0"
    },
@@ -724,6 +736,7 @@
       "thunderbird_version" : "3.1.9",
       "vim_version" : "7.3",
       "vlc_version" : "1.1.9",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.10.1"
    },
@@ -780,6 +793,7 @@
       "thunderbird_version" : "7.0.1",
       "vim_version" : "7.3",
       "vlc_version" : "1.1.12",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.10.4"
    },
@@ -836,6 +850,7 @@
       "thunderbird_version" : "12.0.1",
       "vim_version" : "7.3",
       "vlc_version" : "2.0.1",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.11.4"
    },
@@ -892,6 +907,7 @@
       "thunderbird_version" : "16.0.1",
       "vim_version" : "7.3",
       "vlc_version" : "2.0.4",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.13.0"
    },
@@ -948,6 +964,7 @@
       "thunderbird_version" : "17.0.5",
       "vim_version" : "7.3",
       "vlc_version" : "2.0.6",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.13.3"
    },
@@ -1004,6 +1021,7 @@
       "thunderbird_version" : "24.0",
       "vim_version" : "7.4",
       "vlc_version" : "2.0.8",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.14.3"
    },
@@ -1060,6 +1078,7 @@
       "thunderbird_version" : "31.7.0",
       "vim_version" : "7.4",
       "vlc_version" : "2.1.6",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.15.1"
    },
@@ -1116,6 +1135,7 @@
       "thunderbird_version" : "52.4.0",
       "vim_version" : "7.4",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "4.12.3",
       "xorg_server_version" : "1.18.4"
    },
@@ -1172,6 +1192,7 @@
       "thunderbird_version" : "60.9.0",
       "vim_version" : "8.0",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "4.14.1",
       "xorg_server_version" : "1.19.6"
    },
@@ -1228,6 +1249,7 @@
       "thunderbird_version" : "68.5.0",
       "vim_version" : "8.1",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.20.4"
    },
@@ -1242,11 +1264,7 @@
       "dhcp_version" : "4.4.1",
       "e2fsprogs_version" : "1.45.5",
       "eol_date" : " ",
-<<<<<<< HEAD
       "firefox_version" : "95.0.1",
-=======
-      "firefox_version" : "89.0.2",
->>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
       "freetype_version" : "2.10.1",
       "gcc_version" : "9.3.0",
       "gimp_version" : "--",
@@ -1265,13 +1283,8 @@
       "linux_version" : "5.4",
       "lxpanel_version" : "--",
       "mariadb_version" : "--",
-<<<<<<< HEAD
       "mate_desktop_version" : "1.26.0",
       "mesa_version" : "21.0.3",
-=======
-      "mate_desktop_version" : "1.24.0",
-      "mesa_version" : "20.2.6",
->>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
       "mysql_version" : "--",
       "nautilus_version" : "--",
       "nvidia_version" : "--",
@@ -1286,7 +1299,6 @@
       "postgresql_version" : "--",
       "python_version" : "3.8.2",
       "qt_version" : "5.12.8",
-<<<<<<< HEAD
       "release_date" : "2022-01-06",
       "release_name" : "20.3una",
       "samba_version" : "4.13.14",
@@ -1294,6 +1306,7 @@
       "thunderbird_version" : "78.14.0",
       "vim_version" : "8.1",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "4.16.0",
       "xorg_server_version" : "1.20.11"
    },
@@ -1350,6 +1363,7 @@
       "thunderbird_version" : "91.6.2",
       "vim_version" : "8.2",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "--",
       "xorg_server_version" : "1.20.11"
    },
@@ -1364,7 +1378,7 @@
       "dhcp_version" : "4.4.1",
       "e2fsprogs_version" : "1.46.5",
       "eol_date" : " ",
-      "firefox_version" : "103.0",
+      "firefox_version" : "108.0.1",
       "freetype_version" : "2.11.1",
       "gcc_version" : "11.2.0",
       "gimp_version" : "--",
@@ -1379,17 +1393,17 @@
       "k3b_version" : "--",
       "kmod_version" : "29",
       "krita_version" : "--",
-      "libreoffice_version" : "7.3.2",
+      "libreoffice_version" : "7.3.7",
       "linux_version" : "5.15",
       "lxpanel_version" : "--",
       "mariadb_version" : "--",
       "mate_desktop_version" : "1.26.0",
-      "mesa_version" : "22.0.1",
+      "mesa_version" : "22.0.5",
       "mysql_version" : "--",
       "nautilus_version" : "--",
       "nvidia_version" : "--",
       "openbox_version" : "--",
-      "openjdk_version" : "11.0.15",
+      "openjdk_version" : "11.0.17",
       "openssh_version" : "8.9p1",
       "openssl_version" : "3.0.2",
       "perl_version" : "5.34.0",
@@ -1397,27 +1411,17 @@
       "plasma_desktop_version" : "--",
       "postfix_version" : "--",
       "postgresql_version" : "--",
-      "python_version" : "3.10.4",
+      "python_version" : "3.10.6",
       "qt_version" : "5.15.3",
-      "release_date" : "2022-07-31",
-      "release_name" : "21vanessa",
-      "samba_version" : "4.15.5",
+      "release_date" : "2022-12-20",
+      "release_name" : "21.1vera",
+      "samba_version" : "4.15.9",
       "systemd_version" : "249.11",
-      "thunderbird_version" : "91.11.0",
+      "thunderbird_version" : "102.4.2",
       "vim_version" : "8.2",
       "vlc_version" : "--",
+      "wayland_version" : "--",
       "xfdesktop_version" : "4.16.0",
       "xorg_server_version" : "21.1.3"
-=======
-      "release_date" : "2021-07-08",
-      "release_name" : "20.2uma",
-      "samba_version" : "4.11.6",
-      "systemd_version" : "245.4",
-      "thunderbird_version" : "78.8.1",
-      "vim_version" : "8.1",
-      "vlc_version" : "--",
-      "xfdesktop_version" : "4.16.0",
-      "xorg_server_version" : "1.20.9"
->>>>>>> 2253dbeb401305559c98cd1613129e396ad6d8cf
    }
 ]
